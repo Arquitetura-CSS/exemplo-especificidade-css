@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../styles/style.css" media="screen" />
+  <title>Cartilha da Arquitetura CSS - Exemplo prático de especificidade CSS</title>
+
+  <style>
+    div {
+      color: red;
+      margin: 30px;
+    }
+
+    p {
+      color: blue;
+    }
+
+    .paragraph {
+      margin: inherit;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="content">
+    <p class="paragraph" style="color:limegreen;">Parágrafo</p>
+  </div>
+
+</body>
+
+</html>

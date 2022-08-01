@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.content {
+    margin: rem(20);
+}
+
+p {
+    color: orange;
+}
