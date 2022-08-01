@@ -1,9 +1,6 @@
 @use "../abstracts/" as *;
 
 #content {
-    margin: rem(20);
-}
-
-p {
     color: orange;
+    margin: rem(20);
 }
